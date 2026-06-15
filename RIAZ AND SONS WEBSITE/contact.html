@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Riaz & Sons Solutions">
+    <title>Contact Us | Riaz & Sons Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Top Info Bar -->
+<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-content">
+            <div class="top-bar-left">
+                <span><i class="fas fa-phone"></i> +92 42 3595 2051</span>
+                <span>|</span>
+                <span><i class="fas fa-phone"></i> 0305 8967537</span>
+                <span>|</span>
+                <span><i class="fas fa-envelope"></i> info@riazandsons.pk</span>
+            </div>
+            <div class="top-bar-right">
+                <span>Serving Pakistan Since 1965</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="index.html" class="logo-section">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='white' width='200' height='200' rx='20'/%3E%3Ctext x='50%25' y='45%25' font-family='Arial, sans-serif' font-size='70' font-weight='bold' fill='%23071B2A' text-anchor='middle' dominant-baseline='middle'%3ERS%3C/text%3E%3Cpath d='M 60 110 Q 100 130 140 110' stroke='%23FF8C00' stroke-width='8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" alt="RS Logo" class="navbar-logo" style="width: 50px; height: 50px; border-radius: 8px;">
+                <div class="logo-text">
+                    <h3>Riaz & Sons</h3>
+                    <p>Civil · Electrical · Mechanical · HVAC</p>
+                </div>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="nav-link">HOME</a></li>
+                    <li><a href="about.html" class="nav-link">ABOUT US</a></li>
+                    <li><a href="services.html" class="nav-link">SERVICES</a></li>
+                    <li><a href="projects.html" class="nav-link">PROJECTS</a></li>
+                    <li><a href="gallery.html" class="nav-link">GALLERY</a></li>
+                    <li><a href="contact.html" class="nav-link active">CONTACT</a></li>
+                </ul>
+            </div>
+            <a href="contact.html" class="btn-quote">GET A QUOTE</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Header -->
+<section class="page-header" style="background-image: url('https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1200');">
+    <div class="page-header-overlay"></div>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Get In Touch With Our Team</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>Have questions? Our team is ready to help you find the perfect solution.</p>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>156 Aurangzeb Block, New Garden Town, Lahore, Pakistan</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p><a href="tel:+923058967537">+92 305 8967537</a></p>
+                        <p><a href="tel:+924235952051">+92 42 3595 2051</a></p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p><a href="mailto:info@riazandsons.pk">info@riazandsons.pk</a></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p><a href="https://wa.me/923058967537" target="_blank">Message us on WhatsApp</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Riaz & Sons Solutions</h4>
+                <p>Six Decades of Trust. A New Chapter of Excellence.</p>
+                <p>Pakistan's trusted engineering partner since 1965.</p>
+                <p class="founder-info">Founded by Riaz Sahib (Late) · Led by Adnan Riaz</p>
+            </div>
+            <div class="footer-section">
+                <h4>Head Office</h4>
+                <p>156 Aurangzeb Block,<br>New Garden Town, Lahore</p>
+                <h4 style="margin-top: 20px;">Contact</h4>
+                <p>+92 42-3595 2051<br>0305-8967537</p>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html#elevators">Passenger Elevators</a></li>
+                    <li><a href="services.html#cargo">Cargo & Hospital Lifts</a></li>
+                    <li><a href="services.html#hvac">HVAC Systems</a></li>
+                    <li><a href="services.html#generators">Diesel Generators</a></li>
+                    <li><a href="services.html#logistics">Logistics & Delivery</a></li>
+                    <li><a href="services.html#mep">MEP Contracting</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Riaz & Sons Solutions (Pvt.) Ltd. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/923058967537?text=Hello, I am interested in your engineering services." class="whatsapp-btn" target="_blank" title="WhatsApp Us">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
